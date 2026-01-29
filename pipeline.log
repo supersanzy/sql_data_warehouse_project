@@ -1,0 +1,11 @@
+2026-01-28 07:02:43,932 - INFO - Running shell script
+2026-01-28 07:02:43,961 - INFO - Running 01_init_db.sql
+2026-01-28 07:02:43,970 - INFO - Running 02_bronze_layer.sql
+2026-01-28 07:02:43,976 - INFO - Running 03_load_bronze.sql
+2026-01-28 07:02:43,978 - INFO - Running 04_call_bronze_proc.sql
+2026-01-28 07:02:44,323 - INFO - Running 05_silver_layer.sql
+2026-01-28 07:02:44,328 - INFO - Running 06_transform_&_load.sql
+2026-01-28 07:02:44,330 - INFO - Running 07_call_silver_proc.sql
+2026-01-28 07:02:44,961 - INFO - Running 08_gold_layer.sql
+2026-01-28 07:02:45,003 - INFO - All sql file executed successfully
+2026-01-28 07:02:45,004 - INFO - Database connection closed successfully
